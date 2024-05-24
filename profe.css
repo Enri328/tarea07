@@ -1,0 +1,63 @@
+main{
+    width:75%;
+    margin:20px auto;
+    border:1px solid red;
+}
+h1{
+    text-align: center;
+}
+nav{
+      border:1px solid;
+}
+ul{
+  display:flex;
+  justify-content: end;
+  align-items: center;
+}
+li{
+   list-style-type: none;
+   margin:2px;   
+}
+a{
+  margin:2px;
+  background-color: black;
+  color:white;
+  text-decoration: none;
+  padding:10px;
+  border-radius: 5px;
+}
+section{
+    display: flex;
+    padding:10px;
+}
+#principal{
+    width:75%;
+    border:1px solid green;
+    margin:10px;    
+}
+h2{text-align: center;}
+.video_responsivo{
+    position:relative;
+    padding-bottom: 56.25%;/*16:9*/
+    height: 0;
+}
+iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+aside{
+    width:25%;
+    border:1px solid blue;
+    margin:10px;
+    text-align: center;
+}
+footer{
+    height: 50px;
+    background-color: beige;
+}
+address{
+    text-align: center;
+}
